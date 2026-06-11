@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    
+    <!-- Google tag (gtag.js) - Google Ads Tracking -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16586800443"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16586800443');
+    </script>
+
+    <!-- Event snippet for نقرة صادرة إلى الخارج conversion page -->
+    <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-16586800443/EyCMCNH247wcELv6meU9',
+          'event_callback': callback
+      });
+      return false;
+    }
+    </script>
+
+    <!-- Call and WhatsApp tracking functions with conversion support -->
+    <script>
+    function makePhoneCall(phoneNumber) {
+      var cleanNumber = String(phoneNumber).replace(/[\s\-]/g, '');
+      if (!cleanNumber.startsWith('+') && !cleanNumber.startsWith('00')) {
+        if (cleanNumber.startsWith('965')) {
+          cleanNumber = '+' + cleanNumber;
+        } else {
+          cleanNumber = '+965' + cleanNumber;
+        }
+      }
+      var telUrl = 'tel:' + cleanNumber;
+      
+      if (typeof gtag_report_conversion === 'function') {
+        gtag_report_conversion(telUrl);
+      }
+      
+      setTimeout(function() {
+        window.location.href = telUrl;
+      }, 100);
+      
+      return false;
+    }
+
+    function trackWhatsAppClick(url) {
+      if (typeof gtag_report_conversion === 'function') {
+        gtag_report_conversion(url);
+      }
+      setTimeout(function() {
+        window.open(url, '_blank');
+      }, 100);
+      return false;
+    }
+    </script>
+
+    <!-- Structured Data for SEO (Buy Used Furniture Kuwait) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "شراء اثاث مستعمل الكويت - نشتري الأثاث والأجهزة المستعملة",
+        "description": "نشتري جميع أنواع الأثاث المستعمل والاجهزة الكهربائية وغرف النوم والمجالس وأثاث الشركات بأسعار مناسبة وخدمة سريعة بجميع مناطق الكويت",
+        "telephone": "+96565807020",
+        "areaServed": "Kuwait",
+        "serviceType": "شراء اثاث مستعمل, شراء عفش مستعمل, شراء اجهزة مستعملة, اثاث شركات, شراء غسالات مستعملة",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "Kuwait"
+        },
+        "openingHours": "Mo-Su 08:00-22:00"
+    }
+    </script>
+
+    <title>شراء اثاث مستعمل الكويت | نشتري الأثاث والأجهزة المستعملة | 65807020</title>
+    <meta name="description" content="✅ شراء اثاث مستعمل الكويت - نشتري جميع أنواع الأثاث المستعمل والاجهزة الكهربائية وغرف النوم والمجالس وأثاث الشركات - خدمة سريعة بجميع المناطق - اتصل الآن 65807020">
+    <meta name="keywords" content="شراء اثاث مستعمل الكويت, شراء عفش مستعمل, بيع وشراء اثاث مستعمل, شراء اجهزة مستعملة, اثاث شركات, شراء غسالات مستعملة الكويت, يشترون اثاث مستعمل الكويت, buy used furniture, used furniture for sale">
+    <meta name="location" content="Kuwait">
+
+    <!-- Fonts & Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary-furniture: #8B5A2B;      /* Wood / furniture brown */
+            --dark-furniture: #5C3A1A;
+            --accent-gold: #D4AF37;
+            --light-bg: #FDF8F0;
+            --clean-white: #FFFFFF;
+            --soft-gray: #F9F9F9;
+            --text-dark: #2C2C2C;
+            --call-green: #27AE60;
+            --whatsapp-green: #25D366;
+            --buy-red: #C0392B;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Cairo', sans-serif;
+        }
+        
+        body {
+            background: var(--light-bg);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+        
+        /* Scrolling Banner */
+        .scrolling-banner {
+            background: var(--dark-furniture);
+            color: white;
+            padding: 12px 0;
+            overflow: hidden;
+            font-weight: 700;
+            font-size: 0.9rem;
+            border-bottom: 3px solid var(--accent-gold);
+        }
+        
+        .scrolling-content {
+            display: inline-block;
+            white-space: nowrap;
+            animation: scroll 22s linear infinite;
+            padding-left: 100%;
+        }
+        
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-100%); }
+        }
+        
+        /* Navbar */
+        .navbar {
+            background: var(--primary-furniture);
+            color: white;
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .logo {
+            font-size: 1.4rem;
+            color: var(--accent-gold);
+            font-weight: 900;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        }
+        
+        .phone-display {
+            color: var(--accent-gold);
+            font-weight: 700;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            cursor: pointer;
+            transition: transform 0.2s;
+            background: rgba(255,255,255,0.12);
+            padding: 0.5rem 1.2rem;
+            border-radius: 50px;
+        }
+        
+        .phone-display:hover {
+            transform: scale(1.05);
+            background: rgba(255,255,255,0.25);
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #8B5A2B, #5C3A1A);
+            color: white;
+            padding: 6rem 2rem 8rem;
+            text-align: center;
+            min-height: 65vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-image: url('https://images.unsplash.com/photo-1533090481720-856c6e3c1fdb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(60, 46, 32, 0.88);
+        }
+        
+        .hero h1, .hero p, .hero-buttons {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .hero h1 {
+            font-size: 2.2rem;
+            margin-bottom: 1.5rem;
+            font-weight: 900;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 2rem;
+            color: #FDEBD0;
+            font-weight: 500;
+        }
+        
+        .hero-buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        
+        .hero-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            padding: 0.9rem 1.8rem;
+            border-radius: 50px;
+            color: white;
+            text-decoration: none;
+            font-weight: 700;
+            transition: all 0.3s;
+            background: var(--buy-red);
+            font-size: 1.1rem;
+            box-shadow: 0 4px 15px rgba(192, 57, 43, 0.5);
+            border: none;
+            cursor: pointer;
+        }
+        
+        .hero-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+        
+        .secondary-btn {
+            background: var(--call-green);
+            animation: pulse 2s infinite;
+        }
+        
+        .whatsapp-btn {
+            background: var(--whatsapp-green);
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        /* Services Section */
+        .services {
+            padding: 5rem 2rem;
+            background: var(--soft-gray);
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: var(--primary-furniture);
+            font-size: 2rem;
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: "";
+            display: block;
+            width: 80px;
+            height: 4px;
+            background: var(--accent-gold);
+            margin: 0.5rem auto 0;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .service-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+            transition: transform 0.3s;
+            border-bottom: 4px solid var(--accent-gold);
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .service-icon {
+            font-size: 2.5rem;
+            color: var(--primary-furniture);
+            margin-bottom: 1rem;
+        }
+        
+        .service-list {
+            padding-right: 20px;
+            line-height: 1.9;
+            font-size: 1rem;
+        }
+        
+        .service-list li {
+            margin-bottom: 0.8rem;
+            position: relative;
+            padding-right: 30px;
+        }
+        
+        .service-list li::before {
+            content: "🛋️";
+            color: var(--accent-gold);
+            font-weight: bold;
+            position: absolute;
+            right: 0;
+        }
+        
+        /* Floating buttons */
+        .floating-btns {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            display: flex;
+            flex-direction: column;
+            z-index: 1000;
+            gap: 1rem;
+        }
+        
+        .floating-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            padding: 1.1rem 2rem;
+            border-radius: 50px;
+            color: white;
+            background: var(--buy-red);
+            text-decoration: none;
+            font-weight: 700;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            border: none;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        
+        .floating-btn:hover {
+            transform: scale(1.05);
+        }
+        
+        .floating-secondary {
+            background: var(--call-green);
+        }
+        
+        .floating-whatsapp {
+            background: var(--whatsapp-green);
+        }
+        
+        .why-us {
+            padding: 5rem 2rem;
+            background: white;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 3rem auto 0;
+        }
+        
+        .feature-item {
+            text-align: center;
+            padding: 1.5rem;
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            color: var(--primary-furniture);
+            margin-bottom: 1rem;
+        }
+        
+        .simple-footer {
+            background: var(--primary-furniture);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+        
+        .simple-footer p {
+            margin: 0.5rem 0;
+            color: #FDEBD0;
+        }
+        
+        .footer-phone {
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-top: 0.5rem;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        
+        .footer-phone:hover {
+            transform: scale(1.05);
+            color: var(--accent-gold);
+        }
+        
+        .search-tags {
+            background-color: #f8f9fa;
+            padding: 25px;
+            text-align: center;
+            margin-top: 30px;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        .tags-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        
+        .service-tag {
+            background: linear-gradient(135deg, #8B5A2B 0%, #C0392B 100%);
+            padding: 10px 20px;
+            border-radius: 30px;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            border: 2px solid #D4AF37;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+            cursor: default;
+            transition: transform 0.2s;
+        }
+        
+        .service-tag:hover {
+            transform: translateY(-3px);
+        }
+        
+        /* Types Section: Furniture items we buy */
+        .types-section {
+            padding: 5rem 2rem;
+            background: linear-gradient(to bottom, var(--soft-gray), white);
+        }
+        
+        .types-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+            gap: 1.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .type-item {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+            transition: transform 0.3s;
+            border-bottom: 3px solid var(--accent-gold);
+        }
+        
+        .type-item:hover {
+            transform: translateY(-5px);
+        }
+        
+        /* Areas Section */
+        .areas-section {
+            padding: 5rem 2rem;
+            background: var(--light-bg);
+        }
+        
+        .areas-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            max-width: 1100px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .area-badge {
+            background: white;
+            padding: 0.8rem;
+            border-radius: 40px;
+            font-weight: bold;
+            color: var(--primary-furniture);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            border-right: 3px solid var(--accent-gold);
+        }
+        
+        /* Contact Form */
+        .contact-form {
+            padding: 5rem 2rem;
+            background: var(--soft-gray);
+        }
+        
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+        
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            font-size: 1rem;
+        }
+        
+        .form-group textarea {
+            height: 100px;
+            resize: vertical;
+        }
+        
+        .submit-btn {
+            background: var(--primary-furniture);
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 40px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            width: 100%;
+        }
+        
+        .submit-btn:hover {
+            background: var(--accent-gold);
+            transform: scale(1.02);
+            color: #2C2C2C;
+        }
+        
+        .hours-badge {
+            background: var(--call-green);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 30px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 1rem;
+            animation: pulse 2s infinite;
+        }
+        
+        .contact-info {
+            background: #FEF5E7;
+            padding: 2rem;
+            border-radius: 20px;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .hero {
+                padding: 5rem 1rem 6rem;
+            }
+            .hero h1 {
+                font-size: 1.6rem;
+            }
+            .hero p {
+                font-size: 1rem;
+            }
+            .navbar {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+            .logo {
+                font-size: 1.1rem;
+            }
+            .floating-btns {
+                bottom: 1rem;
+                right: 1rem;
+            }
+            .floating-btn {
+                padding: 0.9rem 1.5rem;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="scrolling-banner">
+        <div class="scrolling-content">
+            🛋️ شراء اثاث مستعمل الكويت - نشتري جميع أنواع الأثاث والأجهزة الكهربائية وغرف النوم والمجالس وأثاث الشركات - خدمة سريعة بجميع المناطق - اتصل: 65807020 | تقييم فوري وأفضل الأسعار 🔧
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">🛒 شراء اثاث مستعمل الكويت - أثاث شركات وأجهزة</div>
+        <div class="phone-display" onclick="makePhoneCall('65807020')">
+            <i class="fas fa-phone"></i> 65807020
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hours-badge">
+            <i class="fas fa-truck"></i> خدمة سريعة بالكويت - معاينة مجانية - شراء فوري
+        </div>
+        <h1>🛋️ شراء اثاث مستعمل الكويت | نشتري الأثاث والأجهزة الكهربائية | 65807020</h1>
+        <p>نشتري جميع أنواع الأثاث المستعمل، غرف النوم، المجالس، الأجهزة الكهربائية والثلاجات والغسالات والمكيفات وأثاث الشركات بأسعار تنافسية. خدمة منزلية سريعة تغطي جميع مناطق الكويت. اتصل الآن نحن نشتري عفشك بأفضل سعر.</p>
+        <div class="hero-buttons">
+            <button class="hero-btn secondary-btn" onclick="makePhoneCall('65807020')">
+                <i class="fas fa-phone-volume"></i>
+                اتصل الآن لشراء أثاثك
+            </button>
+            <button class="hero-btn whatsapp-btn" onclick="trackWhatsAppClick('https://wa.me/96565807020')">
+                <i class="fab fa-whatsapp"></i>
+                واتساب فوري
+            </button>
+        </div>
+    </section>
+
+    <section class="services">
+        <h2 class="section-title">خدماتنا في شراء الأثاث المستعمل والاجهزة</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-couch service-icon"></i>
+                <h3>شراء اثاث مستعمل</h3>
+                <ul class="service-list">
+                    <li>نشتري الأثاث المستعمل بحالة جيدة من المنازل والشقق والفلل</li>
+                    <li>شراء غرف النوم والكنب والطاولات والمجالس والأثاث المنزلي</li>
+                    <li>معاينة فورية وتقييم عادل للسعر</li>
+                    <li>شراء جميع القطع مهما كان عددها</li>
+                    <li>خدمة سريعة في حولي، الفروانية، الجهراء وكل الكويت</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-tv service-icon"></i>
+                <h3>شراء اجهزة مستعملة</h3>
+                <ul class="service-list">
+                    <li>نشتري الغسالات والثلاجات والمكيفات والأجهزة الكهربائية المستعملة</li>
+                    <li>شراء شاشات وبوتجازات وأفران ومكانس كهربائية</li>
+                    <li>نقداً فوراً - نشتري أي جهاز بغض النظر عن الماركة</li>
+                    <li>خدمة إزالة الأجهزة مجاناً من المنزل</li>
+                    <li>أفضل أسعار شراء الأجهزة المستعملة بالكويت</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-building service-icon"></i>
+                <h3>شراء اثاث شركات ومكاتب</h3>
+                <ul class="service-list">
+                    <li>شراء مكاتب وكراسي وأثاث الشركات والمعارض والمطاعم المستعمل</li>
+                    <li>نشتري محتويات المكاتب الإدارية بالكامل</li>
+                    <li>تصفية شركات ومستودعات بأعلى سعر</li>
+                    <li>نقدم عروض تنافسية لشراء أثاث المستودعات والفنادق</li>
+                    <li>خدمة سريعة ومعاينة فورية للشركات</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="types-section">
+        <h2 class="section-title">جميع أنواع الأثاث والأجهزة التي نشتريها</h2>
+        <div class="types-grid">
+            <div class="type-item"><h3>🛏️ غرف نوم</h3><p>سراير، دواليب، تسريحات</p></div>
+            <div class="type-item"><h3>🛋️ مجالس وكنب</h3><p>كنب صالونات، مجالس عربية</p></div>
+            <div class="type-item"><h3>📺 أجهزة كهربائية</h3><p>ثلاجات، غسالات، مكيفات</p></div>
+            <div class="type-item"><h3>🍽️ طاولات ومطابخ</h3><p>طاولات طعام، مطابخ مستعملة</p></div>
+            <div class="type-item"><h3>💼 اثاث مكاتب</h3><p>كراسي مكتبية، ديسكات</p></div>
+            <div class="type-item"><h3>📦 تصفية محتويات</h3><p>شراء محتويات شقق وفلل بالكامل</p></div>
+        </div>
+    </section>
+
+    <section class="areas-section">
+        <h2 class="section-title">شراء الأثاث المستعمل في جميع مناطق الكويت</h2>
+        <div class="areas-grid">
+            <div class="area-badge">الجهراء</div><div class="area-badge">حولي</div><div class="area-badge">السالمية</div>
+            <div class="area-badge">الفروانية</div><div class="area-badge">الأحمدي</div><div class="area-badge">مبارك الكبير</div>
+            <div class="area-badge">الفحيحيل</div><div class="area-badge">خيطان</div><div class="area-badge">العارضية</div>
+            <div class="area-badge">صباح السالم</div><div class="area-badge">الرقة</div><div class="area-badge">جميع مناطق الكويت</div>
+        </div>
+    </section>
+
+    <section class="why-us">
+        <h2 class="section-title">لماذا تختار خدمة شراء الأثاث المستعمل لدينا؟</h2>
+        <div class="features">
+            <div class="feature-item"><i class="fas fa-dollar-sign feature-icon"></i><h3>أسعار مناسبة</h3><p>نقدم أفضل الأسعار لشراء الأثاث المستعمل في الكويت</p></div>
+            <div class="feature-item"><i class="fas fa-truck feature-icon"></i><h3>خدمة سريعة</h3><p>المعاينة خلال ساعات وإتمام الصفقة بنفس اليوم</p></div>
+            <div class="feature-item"><i class="fas fa-hand-holding-usd feature-icon"></i><h3>نقداً فوراً</h3><p>الدفع كاش عند معاينة الأثاث مباشرة</p></div>
+            <div class="feature-item"><i class="fas fa-check-circle feature-icon"></i><h3>لا توجد عمولات</h3><p>نحن نشتري مباشرة بدون وسيط</p></div>
+        </div>
+    </section>
+
+    <section class="packages" style="background: var(--soft-gray); padding: 5rem 2rem;">
+        <h2 class="section-title">عروض شراء الأثاث والأجهزة المستعملة</h2>
+        <div class="packages-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; max-width: 1200px; margin: 0 auto;">
+            <div class="package-card" style="background: white; border-radius: 20px; padding: 2rem; text-align: center;">
+                <i class="fas fa-bed" style="font-size: 2rem; color: #8B5A2B;"></i>
+                <h3 class="package-title">شراء غرف نوم مستعملة</h3>
+                <div class="package-price">نقداً فوراً</div>
+                <ul class="package-features" style="list-style: none;">
+                    <li>جميع المقاسات والماركات</li>
+                    <li>تقييم مجاني وسريع</li>
+                    <li>نشتري حتى قطع مفردة</li>
+                </ul>
+                <button class="package-btn" onclick="makePhoneCall('65807020')">طلب معاينة</button>
+            </div>
+            <div class="package-card" style="background: white; border-radius: 20px; padding: 2rem; text-align: center;">
+                <i class="fas fa-tools" style="font-size: 2rem; color: #8B5A2B;"></i>
+                <h3 class="package-title">شراء أجهزة كهربائية</h3>
+                <div class="package-price">أفضل سعر</div>
+                <ul class="package-features" style="list-style: none;">
+                    <li>ثلاجات - غسالات - مكيفات</li>
+                    <li>شاشات - بوتجازات</li>
+                    <li>أجهزة صغيرة وكبيرة</li>
+                </ul>
+                <button class="package-btn" onclick="makePhoneCall('65807020')">عرض جهازك</button>
+            </div>
+            <div class="package-card" style="background: white; border-radius: 20px; padding: 2rem; text-align: center;">
+                <i class="fas fa-chart-line" style="font-size: 2rem; color: #8B5A2B;"></i>
+                <h3 class="package-title">شراء محتويات فلل وشركات</h3>
+                <div class="package-price">خصم على الكميات</div>
+                <ul class="package-features" style="list-style: none;">
+                    <li>تصفية كاملة</li>
+                    <li>نقل مجاني عند الشراء</li>
+                    <li>خدمة فورية للمؤسسات</li>
+                </ul>
+                <button class="package-btn" onclick="makePhoneCall('65807020')">طلب عرض سعر</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2 class="section-title">آراء عملائنا في شراء الأثاث المستعمل بالكويت</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card"><p class="testimonial-text">"خدمة رائعة، تواصلوا معي خلال نصف ساعة وجاءوا معاينة الأثاث واشتروا غرف النوم بالكامل بسعر ممتاز. أنصح بالتعامل معهم لشراء العفش المستعمل."</p><p class="testimonial-author">- عبدالله - حولي</p></div>
+            <div class="testimonial-card"><p class="testimonial-text">"بعنا جميع أجهزتنا قبل السفر، معاينة فورية وسعر عادل ودفع كاش. أفضل شركة لشراء الاثاث المستعمل في الكويت."</p><p class="testimonial-author">- نوف - الفروانية</p></div>
+            <div class="testimonial-card"><p class="testimonial-text">"نشتري اثاث شركات باحترافية، تعاملوا مع أثاث مكتبنا وقدروا السعر بشكل منصف. شكراً لهم."</p><p class="testimonial-author">- خالد - الجهراء</p></div>
+        </div>
+    </section>
+
+    <section class="contact-form" id="contact">
+        <h2 class="section-title">اتصل الآن لبيع الأثاث المستعمل أو الأجهزة</h2>
+        <div class="form-container">
+            <form id="contactForm">
+                <div class="form-group"><label for="name">الاسم الكامل</label><input type="text" id="name" name="name" required></div>
+                <div class="form-group"><label for="phone">رقم الهاتف</label><input type="tel" id="phone" name="phone" required></div>
+                <div class="form-group"><label for="area">المنطقة في الكويت</label><input type="text" id="area" name="area" required></div>
+                <div class="form-group"><label for="service">نوع الأثاث/الجهاز المراد بيعه</label>
+                    <select id="service" name="service" required>
+                        <option value="">اختر النوع</option>
+                        <option value="غرف نوم مستعملة">غرف نوم مستعملة</option>
+                        <option value="مجالس وكنب">مجالس وكنب</option>
+                        <option value="أجهزة كهربائية (ثلاجات غسالات مكيفات)">أجهزة كهربائية</option>
+                        <option value="أثاث شركات ومكاتب">أثاث شركات ومكاتب</option>
+                        <option value="تصفية محتويات منزل بالكامل">تصفية محتويات منزل بالكامل</option>
+                    </select>
+                </div>
+                <div class="form-group"><label for="brand">حالة الأثاث/الجهاز</label>
+                    <select id="brand" name="brand"><option value="">جيد جداً</option><option value="جيد">جيد</option><option value="محتاج صيانة بسيطة">محتاج صيانة بسيطة</option><option value="مثل جديد">مثل جديد</option></select>
+                </div>
+                <div class="form-group"><label for="message">تفاصيل إضافية (القطع، الكمية، الصور إذا أمكن)</label><textarea id="message" name="message" placeholder="مثال: 2 غرفة نوم كاملة + ثلاجة سعة كبيرة..."></textarea></div>
+                <button type="submit" class="submit-btn">اطلب معاينة وسعر فوري</button>
+            </form>
+        </div>
+        <div class="contact-info">
+            <i class="fas fa-clock"></i> <strong>خدمة شراء الأثاث طوال الأسبوع:</strong> من 8 صباحاً حتى 10 مساءً (طوارئ خارج الوقت)
+            <br><br>
+            <i class="fas fa-map-marked-alt"></i> <strong>جميع مناطق الكويت</strong> | الجهراء، حولي، الفروانية، الأحمدي، مبارك الكبير، العاصمة
+            <br><br>
+            <i class="fas fa-phone-alt"></i> <strong>لبيع الأثاث المستعمل والأجهزة:</strong> <span style="font-weight:bold;font-size:1.2rem;" onclick="makePhoneCall('65807020')">65807020</span>
+            <br><br>
+            <i class="fas fa-trophy"></i> <strong>خدمة موثوقة في الكويت - نقداً فوراً - شراء أي أثاث أو جهاز مستعمل</strong>
+        </div>
+    </section>
+
+    <div class="search-tags">
+        <h3>كلمات بحث شائعة عن شراء الأثاث المستعمل في الكويت</h3>
+        <div class="tags-container">
+            <span class="service-tag">شراء اثاث مستعمل الكويت</span><span class="service-tag">شراء عفش مستعمل</span><span class="service-tag">بيع وشراء اثاث مستعمل</span>
+            <span class="service-tag">شراء اجهزة مستعملة</span><span class="service-tag">اثاث شركات</span><span class="service-tag">شراء غسالات مستعملة الكويت</span>
+            <span class="service-tag">يشترون اثاث مستعمل الكويت</span><span class="service-tag">buy used furniture</span><span class="service-tag">used furniture for sale</span>
+            <span class="service-tag">شراء مكيفات مستعملة</span><span class="service-tag">شراء ثلاجات مستعملة</span>
+        </div>
+    </div>
+
+    <div class="floating-btns">
+        <button class="floating-btn floating-secondary" onclick="makePhoneCall('65807020')">
+            <i class="fas fa-phone-volume"></i> اتصال سريع</button>
+        <button class="floating-btn floating-whatsapp" onclick="trackWhatsAppClick('https://wa.me/96565807020')">
+            <i class="fab fa-whatsapp"></i> واتساب شراء</button>
+    </div>
+
+    <div class="simple-footer">
+        <p>🛋️ شراء اثاث مستعمل الكويت - نشتري جميع أنواع الأثاث والأجهزة الكهربائية وغرف النوم والمجالس وأثاث الشركات - خدمة سريعة ونقداً فوراً بجميع المناطق</p>
+        <div class="footer-phone" onclick="makePhoneCall('65807020')"><i class="fas fa-phone"></i> 65807020</div>
+        <p>أفضل أسعار شراء الأثاث المستعمل بالكويت - معاينة مجانية - دفع كاش فوري - تصفية فلل وشركات - خدمة موثوقة</p>
+        <p>جميع الحقوق محفوظة © 2026 | مركز شراء الأثاث المستعمل الكويت - نشتري عفشك بأفضل سعر</p>
+    </div>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            if (typeof gtag_report_conversion === 'function') {
+                gtag_report_conversion();
+            }
+            alert('شكراً لتواصلكم! سيتصل بكم فريق شراء الأثاث المستعمل لتحديد موعد المعاينة وتقييم الأثاث أو الأجهزة مجاناً.');
+            this.reset();
+        });
+        
+        function makePhoneCall(phoneNumber) {
+            var cleanNumber = String(phoneNumber).replace(/[\s\-]/g, '');
+            if (!cleanNumber.startsWith('+') && !cleanNumber.startsWith('00')) {
+                if (cleanNumber.startsWith('965')) {
+                    cleanNumber = '+' + cleanNumber;
+                } else {
+                    cleanNumber = '+965' + cleanNumber;
+                }
+            }
+            var telUrl = 'tel:' + cleanNumber;
+            if (typeof gtag_report_conversion === 'function') {
+                gtag_report_conversion(telUrl);
+            }
+            setTimeout(function() {
+                window.location.href = telUrl;
+            }, 100);
+            return false;
+        }
+        
+        function trackWhatsAppClick(url) {
+            if (typeof gtag_report_conversion === 'function') {
+                gtag_report_conversion(url);
+            }
+            setTimeout(function() {
+                window.open(url, '_blank');
+            }, 100);
+            return false;
+        }
+        
+        // Enhance touch support for iPhone and all touch screens
+        var phoneElements = document.querySelectorAll('[onclick*="makePhoneCall"], .phone-display, .footer-phone, .hero-btn, .package-btn, .floating-btn');
+        phoneElements.forEach(function(el) {
+            el.addEventListener('touchstart', function(e) {
+                if (this.getAttribute('onclick')) {
+                    var onclickAttr = this.getAttribute('onclick');
+                    if (onclickAttr.includes('makePhoneCall')) {
+                        var match = onclickAttr.match(/'([^']+)'/);
+                        if (match && match[1]) {
+                            e.preventDefault();
+                            makePhoneCall(match[1]);
+                            return false;
+                        }
+                    } else if (onclickAttr.includes('trackWhatsAppClick')) {
+                        var matchUrl = onclickAttr.match(/'(https?:\/\/[^']+)'/);
+                        if (matchUrl && matchUrl[1]) {
+                            e.preventDefault();
+                            trackWhatsAppClick(matchUrl[1]);
+                            return false;
+                        }
+                    }
+                }
+            }, { passive: false });
+        });
+    </script>
+</body>
+</html>
